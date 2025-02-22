@@ -9,8 +9,8 @@ PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
 
 echo "Installing dependencies..."
 apt-get update
-#apt-get install -y python3-dev python3-venv sqlite3 python-pip supervisor nginx git
 sudo apt-get install -y python3-dev python3-venv sqlite3 python3-pip supervisor nginx git
+
 
 # Create project directory
 mkdir -p $PROJECT_BASE_PATH
@@ -18,7 +18,7 @@ git clone $PROJECT_GIT_URL $PROJECT_BASE_PATH
 
 # Create virtual environment
 mkdir -p $PROJECT_BASE_PATH/env
-python3 -m venv $PROJECT_BASE_PATH/env
+python3 -m venv $PROJECT_BASE_PATH/envF
 
 # Install python packages
 $PROJECT_BASE_PATH/env/bin/pip install -r $PROJECT_BASE_PATH/requirements.txt
