@@ -5,7 +5,7 @@ set -e
 # TODO: Set to URL of git repo.
 PROJECT_GIT_URL='https://github.com/harikunapuli/Django-Profiles-REST-API.git'
 
-PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
+PROJECT_BASE_PATH='/usr/local/apps/Django-Profiles-REST-API'
 
 echo "Installing dependencies..."
 apt-get update
