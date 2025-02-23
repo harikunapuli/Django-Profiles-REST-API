@@ -2,7 +2,7 @@
 
 set -e
 
-PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
+PROJECT_BASE_PATH='/usr/local/apps/Django-Profiles-REST-API'
 
 cd $PROJECT_BASE_PATH
 git pull
